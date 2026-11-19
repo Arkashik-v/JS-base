@@ -1,54 +1,30 @@
-/*
-------------------------1---------------------------
+let title_1 = document.getElementById("title-menu")
+console.log(title_1)
 
-let a , b, c;
-a = parseInt(prompt("Введите первое число", 0));
-b = parseInt(prompt("Введите второе число", 0));
-parseInt(c = a + b);
-console.log(c);
-alert("сумма равна " + c);
+const h1 = document.querySelector("h1")
+console.log(h1)
 
-let d = confirm("Вы согласны с результатом?")
+const links = document.querySelector("a")
+console.log(links)
 
-------------------------2---------------------------
+console.log(h1.textContent)
+console.log(h1.innerHTML)
+console.log(h1.innerText)
+console.log(h1.outerHTML)
+console.log(h1.outerText)
 
-let num1, num2, num3, max;
-num1 = parseFloat(prompt("введите первое число"));
-num2 = parseFloat(prompt("введите второе число"));
-num3 = parseFloat(prompt("введите третье число"))
+h1.innerHTML = 'Новый заголовок <img src="img/emoji1l.svg" alt="">'
 
-if (num1 >= num2 && num1 >= num3) {
-    max = num1;
-}
-else if (num2 >= num1 && num2 >= num3) {
-    max = num2;
-}
-else {
-    max = num3;
-}
+title1.classList.add("large")
+title1.classList.add("red")
 
-max = num1;
-if (num2 > max) {
-    max = num2
-}
-if (num3 > max) {
-    max = num3
-}
+//console.log(title1.classList.)
+let menu = document.querySelector(".menu")
+menu.style.background = "cyan"
+menu.style.borderBottom = "2 px solid blue"
 
-alert("max = " + max);
+const line = document.querySelector("hr")
+line.width = "50%"
+line.removeAttribute("color")
 
-------------------------3---------------------------
-
-let num, min;
-
-num = parseFloat(prompt("введите первое число"));
-min = num;
-while (num != 0) {
-    num = parseFloat(prompt("введите следующее число"));
-    if (num < min && num != 0) {
-        min = num
-    }
-}
-
-alert("min =  " + min);
-*/
+const block = document.getElementById("block")

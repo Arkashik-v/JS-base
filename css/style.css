@@ -1,0 +1,16 @@
+body {
+    background: lavender;
+}
+.large {
+    font-size: 48px;
+}
+.red {
+    color:red;
+    text-decoration: underline;
+}
+.block {
+    width: 200px;
+    height: 200px;
+    border:3px solid black;
+    padding: 10px;
+}
